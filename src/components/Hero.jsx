@@ -253,7 +253,7 @@ export default function Hero() {
             View My Work <ArrowDown size={18} />
           </MagneticButton>
           <MagneticButton
-            href="/Harsh_Choudhary_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Harsh_Choudhary_Resume.pdf`}
             download
             className="btn-outline-kinetic"
           >
